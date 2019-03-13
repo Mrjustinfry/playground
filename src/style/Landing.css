@@ -3,36 +3,57 @@
   box-sizing: border-box;
 }
 
-.landingPageContainer {
+.hero {
   display: flex;
   flex-flow: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 100vh;
-  width: 100vw;
   background: url('/skyBackground.jpg');
   background-position: center;
-  background-size: contain;
+  background-size: 100% 100%;
 }
 
 .landingPageHeader {
   font-family: 'Fredoka One', cursive;
   text-align: center;
-  margin: auto;
+  margin: 0 auto;
   font-size: 3em;
+  color: #FF5722;
 }
 
 .landingPageInfo {
   font-family: 'Comfortaa', cursive;
-  padding: 3em;
+  padding: 0 3em 3em 3em;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.3em;
+  color: #0b07b9;
+  margin-bottom: 1em;
 }
 
 .logo {
   height: 10em;
   width: 10em;
-  margin: auto;
+  margin: 0 auto -4em auto;
 }
+
+.logo:hover {
+  transition-duration: 1.5s;
+  transform: rotateZ(360deg);
+  transition-timing-function: ease-in-out;
+}
+
+.pageLinkContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: orangered;
+  background-image: url('/star.png');
+  padding: 5% 0;
+  border-top: 5px solid greenyellow;
+  background-size: 3em;
+  background-blend-mode: soft-light;
+}
+
 
 //font-family: 'Sniglet', cursive;
 //font-family: 'Comfortaa', cursive;
