@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
-
 import '../style/App.css';
+import Landing from './Landing';
 
 class App extends Component {
   render() {
@@ -11,8 +11,8 @@ class App extends Component {
                <main>
                  <Switch>
                    <Route
-                      exact path=""
-                      //component={}
+                      exact path="/"
+                      component={Landing}
                    />
                    <Route
                       exact path=""

@@ -1,0 +1,39 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.landingPageContainer {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100vw;
+  background: url('/skyBackground.jpg');
+  background-position: center;
+  background-size: contain;
+}
+
+.landingPageHeader {
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  margin: auto;
+  font-size: 3em;
+}
+
+.landingPageInfo {
+  font-family: 'Comfortaa', cursive;
+  padding: 3em;
+  text-align: center;
+  font-size: 2em;
+}
+
+.logo {
+  height: 10em;
+  width: 10em;
+  margin: auto;
+}
+
+//font-family: 'Sniglet', cursive;
+//font-family: 'Comfortaa', cursive;
+//font-family: 'Fredoka One', cursive;
