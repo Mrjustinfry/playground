@@ -36,6 +36,11 @@ class Landing extends Component {
               icon="/game.png"
               info="A Playground for games"
             />
+            <PageLinkBox
+              title="Data"
+              icon="/data.png"
+              info="A Playground for data"
+            />
           </section>
       </div>
     )
