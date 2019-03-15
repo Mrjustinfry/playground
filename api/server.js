@@ -19,6 +19,8 @@ app.use(
     })
 );
 
+app.use(express.static(path.join(__dirname, 'client/build')));
+
 app.use(morgan('common'));
 app.use(express.json());
 app.use(function (req, res, next) {
