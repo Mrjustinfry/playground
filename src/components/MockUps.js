@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '../style/DarkLight.css';
+import '../style/MockUps.css';
 
-class DarkLight extends Component {
+class MockUps extends Component {
   render() {
     return (
       <div></div>
@@ -9,4 +9,4 @@ class DarkLight extends Component {
   }
 }
 
-export default DarkLight;
+export default MockUps;
