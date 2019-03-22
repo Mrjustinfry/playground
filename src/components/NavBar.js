@@ -5,7 +5,7 @@ class NavBar extends Component {
   render() {
     return (
       <nav>
-
+        <p></p>
       </nav>
     )
   }
