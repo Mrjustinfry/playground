@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import PageLinkBox from './PageLinkBox';
+
 import '../style/Landing.css';
 
 class Landing extends Component {
@@ -12,7 +13,9 @@ class Landing extends Component {
           <h1 className="landingPageHeader">Welcome to my Playground!</h1>
           <p className="landingPageInfo">This is my playground for experimenting with new concepts and ideas. It's a place
              to tackle challenging situations, explore new technologies, think outside the box,
-             push the limits of creativity, and most of all have fun doing it!
+             push the limits of creativity, and most of all have fun doing it! Feel free to follow along and observe
+             my thought process and learning experience. This will be an ever evolving application as I continuously
+             dabble with new things.
           </p>
         </div>
           <section className="pageLinkContainer">
@@ -40,6 +43,11 @@ class Landing extends Component {
               title="Data"
               icon="/data.png"
               info="A Playground for data"
+            />
+            <PageLinkBox
+              title="Mock-ups"
+              icon="/mock.png"
+              info="A Playground for UI"
             />
           </section>
       </div>

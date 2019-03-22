@@ -6,7 +6,6 @@
   padding: 1%;
   background-color: white;
   border-radius: 2em;
-  box-shadow: 2px 3px 8px midnightblue;
   margin: 1em auto;
   width: 25em;
   text-align: center;
@@ -14,6 +13,11 @@
 
 .pageLinkBox:hover {
   box-shadow: 1px 5px 10px midnightblue;
+  cursor: pointer;
+  transform: translate(-.3em, -.3em);
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+  box-shadow: 2px 3px 8px midnightblue;
 }
 
 .pageLinkIcon {
